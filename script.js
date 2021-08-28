@@ -10,7 +10,7 @@ console.log(obj.name);
 //const name=prompt("Как тебя зовут?");
 //const name=prompt("Как вас зовут");
 //document.write(`Привет , ${name}`);
-const numberOfFilms=+prompt('Сколько фильмов вы посмотрели?');
+/*const numberOfFilms=+prompt('Сколько фильмов вы посмотрели?');
 const personalMovieDB={
     count:numberOfFilms,
     movies:{},
@@ -26,4 +26,12 @@ const a=prompt('Один из последних просмотренных фи
 personalMovieDB.movies[a]=b;
 personalMovieDB.movies[c]=d;
 
-console.log(personalMovieDB);
+console.log(personalMovieDB);*/
+for (let i=0;i<10;i++){
+    if (i===6){
+        //break;
+        continue;
+    }
+
+        console.log(i);
+    }
