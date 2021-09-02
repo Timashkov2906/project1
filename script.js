@@ -10,7 +10,47 @@ console.log(obj.name);
 //const name=prompt("Как тебя зовут?");
 //const name=prompt("Как вас зовут");
 //document.write(`Привет , ${name}`);
-const numberOfFilms=+prompt('Сколько фильмов вы посмотрели?');
+/*
+
+
+
+
+console.log(personalMovieDB);
+/*for (let i=0;i<10;i++){
+    if (i===6){
+        //break;
+        continue;
+    }
+
+        console.log(i);
+    }
+*/
+/*function calc(a,b){ //fuction declaration
+    return (a+b);
+}
+console.log(calc(10,2));
+*/
+/*const logger=function(){ //function expression
+console.log('hello')
+};
+logger();*/
+
+//let calc=(a,b) => {return a+b};
+//console.log(calc(4,5));
+
+//const logg="hello world my people";
+//console.log(logg.length);
+//console.log(logg.slice(6,11));
+//console.log(logg.substr(5,3));
+//практика по функциям
+let numberOfFilms;
+function start(){
+    
+    while (numberOfFilms==''|| numberOfFilms==null || isNaN(numberOfFilm)){
+        numberOfFilms=+prompt('Сколько фильмов вы посмотрели?');
+    }
+}
+start();
 const personalMovieDB={
     count:numberOfFilms,
     movies:{},
@@ -44,17 +84,3 @@ else{
 document.write("Вы киноман!");
 
 }
-
-
-
-
-console.log(personalMovieDB);
-/*for (let i=0;i<10;i++){
-    if (i===6){
-        //break;
-        continue;
-    }
-
-        console.log(i);
-    }
-*/
